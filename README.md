@@ -120,6 +120,6 @@
 ### Credits
 * **[Vecnavium](https://github.com/Vecnavium)**
 * **[FormsUI](https://github.com/Vecnavium/FormsUI/tree/master/)**
-
+---
 * **[Muqsit](https://github.com/Muqsit)**
 * **[FormImageFIX](https://github.com/Muqsit/FormImagesFix/tree/pm-4.0/)**
