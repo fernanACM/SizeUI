@@ -106,7 +106,7 @@
 ```
 ***
 ### Permissions
-* Open menu SizeUI: ```yaml sizeui.acm```
+* Open menu SizeUI: ```sizeui.acm```
 
 ### Contact
 | Redes | Tag | Link |
