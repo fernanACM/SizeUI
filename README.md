@@ -46,6 +46,9 @@
 
  MessageSmall-7: "§aIts size has been changed to §dLEVEL 7."
  #===================================================
+ ```
+ 
+ ```yaml
  #                Scale levels: Big
  MessageBig-1: "§aIts size has been changed to §dLEVEL 1."
 
@@ -64,7 +67,8 @@
  BigButton: "§l§3Big\n§r§0Increase size"
  SmallButton: "§l§3Small\n§r§0Reduce size"
  ExitButton: "§4§lClose menu"
- #
+ ```
+ ```yaml
  #===================================================
  #                Content Menu: Small
  Content-Menu-Small: "§eSelect the level you want:"
@@ -85,7 +89,8 @@
  SmallButtonLV-7: "§6§lLevel 7\n§r§0Scale 0.9"
 
  ExitSmall: "§c§lRETURN\n§r§0Back to menu"
- #
+ ```
+ ```yaml
  #===================================================
  #                Content Menu: Big
  Content-Menu-Big: "§eSelect the level you want:"
@@ -102,7 +107,6 @@
  ExitBig: "§c§lRETURN\n§r§0Back to menu"
  #
  #===================================================
-
 ```
 ***
 ### Permissions
