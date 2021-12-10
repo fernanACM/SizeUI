@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace fernanACM\SizeUI\util;
+namespace fernanACM\SizeUI\utils;
 
 use Closure;
 use pocketmine\entity\Attribute;
