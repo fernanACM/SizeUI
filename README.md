@@ -1,5 +1,11 @@
 # SizeUI
 
+[![](https://poggit.pmmp.io/shield.state/SizeUI)](https://poggit.pmmp.io/p/SizeUI)
+<a href="https://poggit.pmmp.io/p/SizeUI"><img src="https://poggit.pmmp.io/shield.state/SizeUI"></a>
+
+[![](https://poggit.pmmp.io/shield.api/SizeUI)](https://poggit.pmmp.io/p/SizeUI)
+<a href="https://poggit.pmmp.io/p/SizeUI"><img src="https://poggit.pmmp.io/shield.api/SizeUI"></a>
+
 **Change your size from large to small with SizeUI:**
 
 ![Captura de pantalla 2021-12-08 055622](https://user-images.githubusercontent.com/83558341/145198736-d4566ee7-ed91-43ae-b63e-df3abc861eda.png)
