@@ -4,7 +4,7 @@ namespace fernanACM\SizeUI;
 
 
 use fernanACM\SizeUI\PluginUtils;
-use fernanACM\SizeUI\util\FormImageFix;
+use fernanACM\SizeUI\utils\FormImageFix;
 use pocketmine\utils\Utils;
 
 use pocketmine\plugin\PluginBase;
