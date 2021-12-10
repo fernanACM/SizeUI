@@ -1,6 +1,6 @@
 # SizeUI
 
-**Change your size from large to small with SizeUI**
+**Change your size from large to small with SizeUI:**
 
 ![Captura de pantalla 2021-12-08 055622](https://user-images.githubusercontent.com/83558341/145198736-d4566ee7-ed91-43ae-b63e-df3abc861eda.png)
 
