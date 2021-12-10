@@ -9,6 +9,7 @@
 **Change your size from large to small with SizeUI:**
 
 ![Captura de pantalla 2021-12-08 055622](https://user-images.githubusercontent.com/83558341/145198736-d4566ee7-ed91-43ae-b63e-df3abc861eda.png)
+<a href="https://discord.gg/YyE9XFckqb"><img src="https://img.shields.io/discord/837701868649709568?label=discord&color=7289DA&logo=discord" alt="Discord" /></a>
 
 ### Elements
 * You can change the text via the 'config.yml' file. 
