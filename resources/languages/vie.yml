@@ -1,0 +1,49 @@
+#     ____    _                _   _   ___ 
+#    / ___|  (_)  ____   ___  | | | | |_ _|
+#    \___ \  | | |_  /  / _ \ | | | |  | | 
+#     ___) | | |  / /  |  __/ | |_| |  | | 
+#    |____/  |_| /___|  \___|  \___/  |___|
+#          bởi fernanACM
+# Thay đổi kích thước của bạn dễ dàng với SizeUI, thu nhỏ và
+# phóng to với chỉ một biểu mẫu
+
+# KHÔNG CHẠM VÀO!
+language-version: "1.0.0"
+# =======(KEYS)=======
+# & => §
+# {LINE} => "\n"
+# ====================
+# FORM
+SizeForm:
+  menu:
+    title: "&l&5SizeUI"
+    content: "&eChọn kiểu kích thước của bạn:"
+    button-normal: "&l&cKHỞI ĐỘNG LẠI{LINE}&r&0Bình thường"
+    button-large: "&l&3TO LỚN{LINE}&r&0Tăng kích thước"
+    button-small: "&l&3NHỎ BÉ{LINE}&r&0Giảm kích thước"
+    button-exit: "&l&4ĐÓNG MENU"
+  large:
+    # Sử dụng {LEVEL} để xem cấp độ của nút
+    # Sử dụng {SCALE} để xem kích thước
+    title: "&l&5SizeUI&a Lớn"
+    content: "&eChọn cấp độ kích thước:"
+    button-level: "&l&6Cấp độ {LEVEL}{LINE}&r&0Kích thước: &a{SCALE}"
+    button-return: "&l&cQUAY LẠI{LINE}&r&0Quay lại menu"
+  small:
+    # Sử dụng {LEVEL} để xem cấp độ của nút
+    # Sử dụng {SCALE} để xem kích thước
+    title: "&l&5SizeUI&a Nhỏ"
+    content: "&eChọn cấp độ kích thước:"
+    button-level: "&l&6Cấp độ {LEVEL}{LINE}&r&0Kích thước: &a{SCALE}"
+    button-return: "&l&cQUAY LẠI{LINE}&r&0Quay lại menu"
+  global:
+    title: "&l&5SizeUI Quản lý"
+    select-player: "&eChọn một người chơi:"
+    select-level: "&eChọn một cấp độ:"
+# THÔNG BÁO
+Messages:
+  error:
+    no-permission: "&cBạn không có quyền cho điều này!"
+    not-numeric: "&cKích thước phải là số!"
+    scale-limit: "&cBạn đã vượt quá giới hạn của kích thước!"
+    player-not-found: "&cKhông tìm thấy người chơi"

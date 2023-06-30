@@ -1,17 +1,13 @@
 name: SizeUI
-main: fernanACM\SizeUI\Size
-version: 1.0
-api: 4.0.0
+main: fernanACM\SizeUI\SizeUI
+version: 2.0.0
+api: 5.0.0
 author: fernanACM
 website: https://github.com/fernanACM
 
-commands:
-  size:
-    description: Open SizeUI
-    usage: /size
-    permission: sizeui.acm
 permissions:
   sizeui.acm:
     default: op
-    children:
     description: Permission of SizeUI /size
+  sizeui.manage.acm:
+    description: Permission of /size manage

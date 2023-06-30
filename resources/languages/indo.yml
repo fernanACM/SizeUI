@@ -1,0 +1,53 @@
+#     ____    _                _   _   ___ 
+#    / ___|  (_)  ____   ___  | | | | |_ _|
+#    \___ \  | | |_  /  / _ \ | | | |  | | 
+#     ___) | | |  / /  |  __/ | |_| |  | | 
+#    |____/  |_| /___|  \___|  \___/  |___|
+#          oleh fernanACM
+# Ubah ukuran Anda dengan mudah menggunakan SizeUI, dapatkan ukuran kecil dan
+# besar dengan hanya satu formulir
+
+# JANGAN DIUBAH!
+language-version: "1.0.0"
+# =======(KEYS)=======
+# & => §
+# {LINE} => "\n"
+# ====================
+# FORMULIR
+SizeForm:
+  menu:
+    title: "&l&5SizeUI"
+    content: "&ePilih jenis ukuran:"
+    button-normal: "&l&cATUR ULANG{LINE}&r&0Normal"
+    button-large: "&l&3BESAR{LINE}&r&0Besarkan ukuran"
+    button-small: "&l&3KECIL{LINE}&r&0Perkecil ukuran"
+    button-exit: "&l&4TUTUP MENU"
+  large:
+    # Gunakan {LEVEL} untuk melihat level tombol
+    # Gunakan {SCALE} untuk melihat ukuran
+    title: "&l&5SizeUI&a Besar"
+    content: "&ePilih tingkat ukuran:"
+    button-level: "&l&6Level {LEVEL}{LINE}&r&0Skala: &a{SCALE}"
+    button-return: "&l&cKEMBALI{LINE}&r&0Kembali ke menu"
+  small:
+    # Gunakan {LEVEL} untuk melihat level tombol
+    # Gunakan {SCALE} untuk melihat ukuran
+    title: "&l&5SizeUI&a Kecil"
+    content: "&ePilih tingkat ukuran:"
+    button-level: "&l&6Level {LEVEL}{LINE}&r&0Skala: &a{SCALE}"
+    button-return: "&l&cKEMBALI{LINE}&r&0Kembali ke menu"
+  global:
+    title: "&l&5SizeUI Kelola"
+    select-player: "&ePilih pemain:"
+    select-level: "&ePilih tingkat:"
+# PESAN
+Messages:
+  error:
+    no-permission: "&cAnda tidak memiliki izin untuk ini!"
+    not-numeric: "&cSkala harus berupa angka!"
+    scale-limit: "&cAnda telah melebihi batas skala!"
+    player-not-found: "&cPemain tidak ditemukan"
+  successful:
+    # Gunakan {SCALE} untuk melihat ukuran
+    scale-change: "&aUkuran Anda telah diperbarui menjadi:&b {SCALE}"
+    scale-normal: "&aUkuran Anda kembali normal!"

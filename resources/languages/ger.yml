@@ -1,0 +1,53 @@
+#     ____    _                _   _   ___ 
+#    / ___|  (_)  ____   ___  | | | | |_ _|
+#    \___ \  | | |_  /  / _ \ | | | |  | | 
+#     ___) | | |  / /  |  __/ | |_| |  | | 
+#    |____/  |_| /___|  \___|  \___/  |___|
+#          von fernanACM
+# Ändern Sie Ihre Größe einfach mit SizeUI, erhalten Sie klein und
+# groß mit nur einem Formular
+
+# NICHT VERÄNDERN!
+language-version: "1.0.0"
+# =======(KEYS)=======
+# & => §
+# {LINE} => "\n"
+# ====================
+# FORMULAR
+SizeForm:
+  menu:
+    title: "&l&5SizeUI"
+    content: "&eWählen Sie Ihren Größentyp aus:"
+    button-normal: "&l&cZURÜCKSETZEN{LINE}&r&0Normal"
+    button-large: "&l&3GROSS{LINE}&r&0Größe erhöhen"
+    button-small: "&l&3KLEIN{LINE}&r&0Größe verringern"
+    button-exit: "&l&4MENÜ SCHLIESSEN"
+  large:
+    # Verwenden Sie {LEVEL}, um den Level des Buttons anzuzeigen
+    # Verwenden Sie {SCALE}, um die Größe anzuzeigen
+    title: "&l&5SizeUI&a Groß"
+    content: "&eWählen Sie die Größenstufe:"
+    button-level: "&l&6Level {LEVEL}{LINE}&r&0Skala: &a{SCALE}"
+    button-return: "&l&cZURÜCK{LINE}&r&0Zurück zum Menü"
+  small:
+    # Verwenden Sie {LEVEL}, um den Level des Buttons anzuzeigen
+    # Verwenden Sie {SCALE}, um die Größe anzuzeigen
+    title: "&l&5SizeUI&a Klein"
+    content: "&eWählen Sie die Größenstufe:"
+    button-level: "&l&6Level {LEVEL}{LINE}&r&0Skala: &a{SCALE}"
+    button-return: "&l&cZURÜCK{LINE}&r&0Zurück zum Menü"
+  global:
+    title: "&l&5SizeUI Verwalten"
+    select-player: "&eWählen Sie einen Spieler aus:"
+    select-level: "&eWählen Sie eine Stufe aus:"
+# NACHRICHTEN
+Messages:
+  error:
+    no-permission: "&cSie haben keine Berechtigung dafür!"
+    not-numeric: "&cDie Skala muss numerisch sein!"
+    scale-limit: "&cSie haben das Limit der Skala überschritten!"
+    player-not-found: "&cDer Spieler wurde nicht gefunden"
+  successful:
+    # Verwenden Sie {SCALE}, um die Größe anzuzeigen
+    scale-change: "&aIhre Größe wurde aktualisiert auf:&b {SCALE}"
+    scale-normal: "&aIhre Größe ist wieder normal!"

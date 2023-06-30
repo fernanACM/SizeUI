@@ -1,0 +1,53 @@
+#     ____    _                _   _   ___ 
+#    / ___|  (_)  ____   ___  | | | | |_ _|
+#    \___ \  | | |_  /  / _ \ | | | |  | | 
+#     ___) | | |  / /  |  __/ | |_| |  | | 
+#    |____/  |_| /___|  \___|  \___/  |___|
+#          by fernanACM
+# Change your size easily with SizeUI, get small and 
+# big with just one form
+
+# DO NOT TOUCH!
+language-version: "1.0.0"
+# =======(KEYS)=======
+# & => §
+# {LINE} => "\n"
+# ====================
+# FORM
+SizeForm:
+  menu:
+    title: "&l&5SizeUI"
+    content: "&eSelect your type of size:"
+    button-normal: "&l&cRESET{LINE}&r&0Normal"
+    button-large: "&l&3BIG{LINE}&r&0Increase size"
+    button-small: "&l&3SMALL{LINE}&r&0Reduce size"
+    button-exit: "&l&4CLOSE MENU"
+  large:
+    # Use {LEVEL} to see the level of the button
+    # Use {SCALE} to see the size
+    title: "&l&5SizeUI&a Large"
+    content: "&eSelect size level:"
+    button-level: "&l&6Level {LEVEL}{LINE}&r&0Scale: &a{SCALE}"
+    button-return: "&l&cRETURN{LINE}&r&0Back to menu"
+  small:
+    # Use {LEVEL} to see the level of the button
+    # Use {SCALE} to see the size
+    title: "&l&5SizeUI&a Small"
+    content: "&eSelect size level:"
+    button-level: "&l&6Level {LEVEL}{LINE}&r&0Scale: &a{SCALE}"
+    button-return: "&l&cRETURN{LINE}&r&0Back to menu"
+  global:
+    title: "&l&5SizeUI Manage"
+    select-player: "&eSelect a player:"
+    select-level: "&eSelect a level:"
+# MESSAGES
+Messages:
+  error:
+    no-permission: "&cYou don't have permissions for this!"
+    not-numeric: "&cThe scale must be numeric!"
+    scale-limit: "&cYou have exceeded the limit of the scale!"
+    player-not-found: "&cThe player has not been found"
+  successful:
+    # Use {SCALE} to see the size
+    scale-change: "&aYour size has been updated to:&b {SCALE}"
+    scale-normal: "&aYour size is back to normal!"

@@ -1,0 +1,53 @@
+#     ____    _                _   _   ___ 
+#    / ___|  (_)  ____   ___  | | | | |_ _|
+#    \___ \  | | |_  /  / _ \ | | | |  | | 
+#     ___) | | |  / /  |  __/ | |_| |  | | 
+#    |____/  |_| /___|  \___|  \___/  |___|
+#          por fernanACM
+# Cambia tu tamaño fácilmente con SizeUI, hazte pequeño y
+# grande con una sola forma
+
+# NO TOCAR!
+language-version: "1.0.0"
+# =======(KEYS)=======
+# & => §
+# {LINE} => "\n"
+# ====================
+# FORM
+SizeForm:
+  menu:
+    title: "&l&5SizeUI"
+    content: "&eSelecciona el tipo de tamaño:"
+    button-normal: "&l&cREINICIAR{LINE}&r&0Normal"
+    button-large: "&l&3GRANDE{LINE}&r&0Aumentar tamaño"
+    button-small: "&l&3PEQUEÑO{LINE}&r&0Reduce tamaño"
+    button-exit: "&l&4CERRAR MENÚ"
+  large:
+    # Usa {LEVEL} para ver el nivel del botón
+    # Usa {SCALE} para ver la escala
+    title: "&l&5SizeUI&a Grande"
+    content: "&eSelecciona el nivel que gustes:"
+    button-level: "&l&6Nivel {LEVEL}{LINE}&r&0Escala: &a{SCALE}"
+    button-return: "&l&cVOLVER{LINE}&r&0Regresar al menú"
+  small:
+    title: "&l&5SizeUI&a Small"
+    content: "&eSelecciona el nivel que gustes:"
+    button-level: "&l&6Nivel {LEVEL}{LINE}&r&0Escala: &a{SCALE}"
+    button-return: "&l&cVOLVER{LINE}&r&0Regresar al menú"
+  global:
+    # Usa {LEVEL} para ver el nivel del botón
+    # Usa {SCALE} para ver la escala
+    title: "&l&5SizeUI Administrador"
+    select-player: "&eSeleccionar jugador:"
+    select-level: "&eSeleccionar nivel:"
+# MENSAJES
+Messages:
+  error:
+    no-permission: "&c¡No tienes permisos para esto!"
+    not-numeric: "&c¡La cantidad debe ser numerica!"
+    scale-limit: "&c¡Te has superado la escala limite!"
+    player-not-found: "&cNo se ha encontrado a ese jugador"
+  successful:
+    # Usa {SCALE} para ver la escala
+    scale-change: "&aTu tamaño ha sido actualizado a:&b {SCALE}"
+    scale-normal: "&a¡Tu tamaño ha vuelto a la normalidad!"
