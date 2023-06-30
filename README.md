@@ -32,7 +32,7 @@
 |----------|---------------|
 | English | [fernanACM](https://github.com/fernanACM) |
 | Spanish | [fernanACM](https://github.com/fernanACM) |
-| Indonesian | BetterRewards |
+| Indonesian | SizeUI |
 | German | [GamerMJay](https://github.com/GamerMJay) |
 | Vietnamese | [NhanAZ](https://github.com/NhanAZ) |
 
