@@ -27,6 +27,15 @@
 | ```sizeui.acm``` | Executing the command |
 | ```sizeui.manage.acm``` | Management mode |
 
+### 🌐 MultiLanguage
+| Language | Translated by |
+|----------|---------------|
+| English | [fernanACM](https://github.com/fernanACM) |
+| Spanish | [fernanACM](https://github.com/fernanACM) |
+| Indonesian | BetterRewards |
+| German | [GamerMJay](https://github.com/GamerMJay) |
+| Vietnamese | [NhanAZ](https://github.com/NhanAZ) |
+
 ### 📞 Contact 
 | Redes | Tag | Link |
 |-------|-------------|------|
