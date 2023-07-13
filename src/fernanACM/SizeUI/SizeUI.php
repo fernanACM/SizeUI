@@ -177,6 +177,9 @@ class SizeUI extends PluginBase{
         return PluginUtils::codeUtil($player, $message);
     }
 
+	/**
+	 * @return string
+	 */
 	public static function Prefix(): string{
 		return TextFormat::colorize(self::$instance->config->get("Prefix"));
 	}
